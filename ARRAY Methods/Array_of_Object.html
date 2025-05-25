@@ -7,7 +7,19 @@
 </head>
 <body>
     <script>
-        
+          var students = [
+           {name: "maham" , Age:24},
+           {name: "ali" , Age:35},
+           {name: "mohammad" , Age:35},
+           {name: "Ahamd" , Age:75},
+           {name: "shakeel" , Age:24}
+          ];
+
+          console.log(students)
+          for(let i=0;i<students.length;i++){
+            document.write(`${"<br>"+students[i].name} ${students[i].Age} `)
+          }
+
     </script>
 </body>
 </html>
